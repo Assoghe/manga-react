@@ -1,20 +1,9 @@
-import { useState } from "react"
+import logo from './logo.svg';
+import './App.css';
+import LoginPage from './components/pages/LoginPage';
 
-function App () {
-
-  //state (état, données)
- 
-
-  //comportements
-  
-
-  //affichage
-  return(
-    <>
-      
-    </>
-  )
-  
+function App() {
+  return <LoginPage/>
 }
 
-export default App
+export default App;
