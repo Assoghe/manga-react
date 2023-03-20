@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function LoginForm() {
     //state
@@ -21,6 +22,7 @@ export default function LoginForm() {
             <h2> Connectez-vous </h2>
             <input value={inputValue} onChange={handleChange} type="text" placeholder="entrez votre prenom..." required />
             <button> Acceder à votre espace </button>
+            <Link to="/manga">Vers MangaPage </Link>
         </form>
     )
 }
