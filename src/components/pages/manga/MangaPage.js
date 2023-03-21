@@ -1,10 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 export default function MangaPage() {
-  return (
+  //State
+  const {username} = useParams()
+
+
+
+    return (
     <div>
-      <h1> Manga Page </h1>
+      <h1> Bonjour {username} </h1>
       
         <Link to="/">
             <button>Deconnexion </button>

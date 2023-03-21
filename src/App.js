@@ -11,7 +11,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<LoginPage/>}/>
-      <Route path="/manga" element={<MangaPage/>}/>
+      <Route path="/manga/:username" element={<MangaPage/>}/>
       <Route path="*" element={<ErrorPage/>}/>
 
     </Routes>
